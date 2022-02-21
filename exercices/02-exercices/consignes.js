@@ -10,3 +10,13 @@
 
 // Write your code here
 
+var prompt = require('prompt')
+console.log('Indiquez sous forme 1h30')
+prompt.start()
+prompt.get("time", function(err,result){
+    hours = result.time.split('h')
+    hoursToMinutes = hours[0]*60
+    hoursToMinutes = hoursToMinutes
+    minutesToMinutes = parseInt(hours[1])
+    console.log(hoursToMinutes+minutesToMinutes + " minutes")
+})
