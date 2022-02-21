@@ -3,3 +3,9 @@
  */
 
 // Write your code here
+
+
+function bonjour(){
+    console.log('salut')
+}
+bonjour()
