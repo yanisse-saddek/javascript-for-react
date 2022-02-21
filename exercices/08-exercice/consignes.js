@@ -3,3 +3,9 @@
  */
 
 // Write your code here
+
+
+function soustractionnellement(num1, num2){
+    console.log(num1-num2)
+}
+soustractionnellement(49, 2)

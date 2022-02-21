@@ -8,3 +8,10 @@ let prenoms = ["Priam", "Hortense", "Rose", "Ingrid", "Bryan"];
 
  
 // Write your code here
+
+prenomAvecLesNomDeDomaine = prenoms.map(prenom =>{
+    prenom = prenom.toLowerCase()
+    domaine = `https://${prenom}.com`
+    return domaine
+})
+console.log(prenomAvecLesNomDeDomaine)

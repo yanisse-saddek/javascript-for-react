@@ -4,3 +4,8 @@
 let nombres = [12, 6, 3, 4, 9, 15, 20];
 
 // Write your code here
+
+
+superieurADix = nombres.filter((number) => number>10)
+
+console.log(superieurADix)

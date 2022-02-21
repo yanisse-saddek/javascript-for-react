@@ -6,3 +6,9 @@
 let prenoms = ['Mohamed', 'Erika', 'Madi', 'Astou'];
 
 // Write your code here
+
+
+prenomAvecDesLi = prenoms.map(prenom =>{
+    return `<li>${prenom}</li>`
+})
+console.log(prenomAvecDesLi)

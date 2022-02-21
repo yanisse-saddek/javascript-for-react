@@ -6,3 +6,7 @@
 let notesSur10 = [2, 7, 9, 10, 6.5, 8.5];
 
 // Write your code here
+notesSur20 = notesSur10.map(note=>{
+    return note*2
+})
+console.log(notesSur20)

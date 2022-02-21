@@ -4,3 +4,5 @@
 let languages = ["JavaScript", "HTML",  "CSS", "nodejs"];
 
  // Write your code here.
+
+ languages.forEach(langage => console.log(langage.toUpperCase()))

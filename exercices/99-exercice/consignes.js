@@ -17,3 +17,24 @@
 
 
 // Write your code here
+
+var prompt = require('prompt')
+prompt.start()
+var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K','L', 'M', 'N', 'O', 'P', 'Q','R', 'S','T', 'U', 'V', 'W', 'X', 'Y', "Z", 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K','L', 'M', 'N', 'O', 'P', 'Q','R', 'S','T', 'U', 'V', 'W', 'X', 'Y', "Z"]
+
+const oui = function(){
+    prompt.get('phrase', function(err,result){
+
+    var textToProute = result.phrase.toUpperCase()
+    var newMsgChiffreParLeProute = ""
+    
+    for(i=0; i<textToProute.length; i++){
+        indexDuTruc = alphabet.indexOf(textToProute[i]) + 11
+        newMsgChiffreParLeProute+= alphabet[indexDuTruc]
+    }
+    console.log(newMsgChiffreParLeProute)
+    oui()
+})
+
+}
+oui()

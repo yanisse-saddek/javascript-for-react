@@ -4,3 +4,9 @@
 
 // Write your code here
 
+
+
+var bonjour = function(){
+    console.log("bonjour monde")
+}
+bonjour()

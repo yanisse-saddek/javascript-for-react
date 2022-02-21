@@ -5,3 +5,10 @@ let prenoms = ["Marie", "Antoine", "Sarah", "Mandax"];
 
  
 // Write your code here
+
+maPrenoms = prenoms.filter((prenom)=>{
+    if(prenom[0] == "M" && prenom[1] == "a"){
+        return prenom
+    }
+})
+console.log(maPrenoms)

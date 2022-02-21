@@ -11,3 +11,6 @@ let produits = [
     
  
 // Write your code here
+
+produitSuperieurADeuxEuro = produits.filter(produit => produit.prix>=2)
+console.log(produitSuperieurADeuxEuro)
